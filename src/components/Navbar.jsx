@@ -6,7 +6,6 @@ const Navbar = ({ currentPage, onNavigate }) => {
   
   const navItems = [
     { id: 'home', label: 'Home' },
-    { id: 'pay', label: 'Pay' },
     { id: 'offers', label: 'Offers' },
     { id: 'rewards', label: 'Rewards' },
     { id: 'subscriptions', label: 'Subscriptions' },

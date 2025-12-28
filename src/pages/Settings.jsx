@@ -48,9 +48,17 @@ const Settings = ({ onShowBalance }) => {
 
       <div className="settings-section">
         <h2>Account</h2>
-        <div className="setting-item clickable">
-          <span>Linked Bank Accounts</span>
-          <span className="arrow">→</span>
+        <div className="bank-card">
+          <div className="bank-card-header">
+            <div>
+              <div className="bank-name">Primary Bank • **** 4821</div>
+              <div className="bank-sub">Auto-pay enabled · Default method</div>
+            </div>
+            <span className="arrow">→</span>
+          </div>
+          <div className="bank-balance-label">Available balance</div>
+          <div className="bank-balance-value">₹24,500</div>
+          <div className="bank-fine-print">Balance updated periodically. Tap to manage.</div>
         </div>
         <div className="setting-item clickable">
           <span>Payment Methods</span>

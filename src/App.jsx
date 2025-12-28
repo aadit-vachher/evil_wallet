@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Offers from './pages/Offers';
+import Rewards from './pages/Rewards';
+import Subscriptions from './pages/Subscriptions';
 import Settings from './pages/Settings';
 import AccountBalance from './pages/AccountBalance';
 import './App.css';
@@ -31,10 +34,9 @@ function App() {
         ) : (
           <>
             {currentPage === 'home' && <Home />}
-            {currentPage === 'pay' && <div className="page-placeholder">Pay Page</div>}
-            {currentPage === 'offers' && <div className="page-placeholder">Offers Page</div>}
-            {currentPage === 'rewards' && <div className="page-placeholder">Rewards Page</div>}
-            {currentPage === 'subscriptions' && <div className="page-placeholder">Subscriptions Page</div>}
+            {currentPage === 'offers' && <Offers />}
+            {currentPage === 'rewards' && <Rewards />}
+            {currentPage === 'subscriptions' && <Subscriptions />}
             {currentPage === 'settings' && <Settings onShowBalance={handleShowBalance} />}
           </>
         )}

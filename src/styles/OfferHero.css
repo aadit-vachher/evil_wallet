@@ -1,0 +1,109 @@
+.offer-hero {
+  margin-bottom: 30px;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, #fff9e6 0%, #fffcf0 100%);
+  border: 2px solid #ffd700;
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.offer-content h2 {
+  font-size: 22px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.amount {
+  font-size: 48px;
+  font-weight: 700;
+  color: #d4af37;
+  margin-bottom: 8px;
+}
+
+.offer-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.timer {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ffe082;
+}
+
+.timer-label {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.timer-display {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #d4af37;
+}
+
+.time-unit {
+  background: #fff9e6;
+  padding: 8px 14px;
+  border-radius: 8px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.separator {
+  color: #d4af37;
+}
+
+.claim-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #1a1a1a;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+.claim-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 215, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    padding: 25px;
+  }
+  
+  .amount {
+    font-size: 38px;
+  }
+  
+  .timer-display {
+    font-size: 24px;
+  }
+  
+  .time-unit {
+    min-width: 50px;
+    padding: 6px 10px;
+  }
+}

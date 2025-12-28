@@ -1,3 +1,4 @@
+import SpinWheel from '../components/SpinWheel';
 import '../styles/SectionPages.css';
 
 const rewards = [
@@ -24,6 +25,7 @@ const rewards = [
 const Rewards = () => {
   return (
     <div className="section-page">
+      <SpinWheel />
       <h1>Rewards</h1>
       <p className="section-sub">Collect, boost, and never miss a payout.</p>
       <div className="card-grid">

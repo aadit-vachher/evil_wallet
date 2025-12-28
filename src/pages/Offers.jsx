@@ -1,3 +1,4 @@
+import FlashBanner from '../components/FlashBanner';
 import '../styles/SectionPages.css';
 
 const offers = [
@@ -26,6 +27,7 @@ const offers = [
 const Offers = () => {
   return (
     <div className="section-page">
+      <FlashBanner />
       <h1>Offers</h1>
       <p className="section-sub">Unlock bonuses before they expire.</p>
       <div className="card-grid">
